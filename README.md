@@ -1,17 +1,27 @@
-# GNSS Orbit Anomaly Monitor
+# geodetic-orbit-lab
 
-**Realtime monitoring, anomaly detection, and visualization for GNSS satellite orbits and geodetic products.**
+**Realtime GNSS Orbit Monitoring, Ephemeris Calculation, and Anomaly Detection**
 
-This project acquires open GNSS navigation data, calculates satellite ephemerides, detects and logs anomalies, and produces actionable reports and visuals—all with open code and reproducible workflows.
+This project ingests open Global Navigation Satellite System (GNSS) data, computes satellite orbits (ephemerides), monitors for anomalies, and visualizes/report results—demonstrating hands-on geodetic analysis and technical communication.
 
-**Key Features:**
-- Automatic IGS GNSS data ingestion
-- Orbit/ephemeris calculation and comparison
-- Statistical/anomaly analysis of orbits and clocks
-- Visual dashboards and technical reports
-- Full source code (Python/UNIX), with collaboration tools
+## Goals
 
-**Purpose:** Showcases core skills for geodetic orbit science, satellite analysis, and technical communication in intelligence or research applications.
+- Acquire and parse real GNSS navigation data (IGS/SP3/RINEX)
+- Calculate precise satellite positions (ephemerides) in WGS84
+- Detect and log anomalies in satellite orbits/clock errors
+- Visualize results with plots and dashboards
+- Produce technical writeups and presentations to communicate findings
 
-## Getting Started
-_Coming soon: See issues section for roadmap!_
+## Technologies
+
+- Python (data parsing, analysis, visualization)
+- UNIX/Linux scripting (automation)
+- Optional: MATLAB or C++ for comparison
+
+## Status
+
+_Project initializing. Roadmap and first scripts coming soon!_
+
+## License
+
+MIT (or your choice—can update)
